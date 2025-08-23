@@ -8,7 +8,7 @@ async function guardarProduct() {
 
 async function main() {
     await guardarProduct();
-    console.log('✅ Productos guardados');
+    console.log('Productos guardados');
 
     const data = await p1.getProducts();
     console.table(data);
